@@ -1,22 +1,22 @@
 {
   "refer_miou": {
-    "checkpoint": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/refer/refer_miou_best.state_dict.pth",
+    "checkpoint": "checkpoints/refer/refer_miou_best.state_dict.pth",
     "miou": 74.93798104529004,
     "oiou": 81.1773768096535,
-    "report": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/manifests/full_eval_20260414/reports/eval_refer_miou/report_t03.json",
+    "report": "results/eval_reports/eval_refer_miou/report_t03.json",
     "threshold": 0.3,
     "valid_samples": 4000
   },
   "refer_oiou": {
-    "checkpoint": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/refer/refer_oiou_best.state_dict.pth",
+    "checkpoint": "checkpoints/refer/refer_oiou_best.state_dict.pth",
     "miou": 74.38287185208327,
     "oiou": 81.32469085932786,
-    "report": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/manifests/full_eval_20260414/reports/eval_refer_oiou/report_t03.json",
+    "report": "results/eval_reports/eval_refer_oiou/report_t03.json",
     "threshold": 0.3,
     "valid_samples": 4000
   },
   "rsrefsegrs_test_miou": {
-    "checkpoint": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/rsrefsegrs/rsrefsegrs_test_miou_best.state_dict.pth",
+    "checkpoint": "checkpoints/rsrefsegrs/rsrefsegrs_test_miou_best.state_dict.pth",
     "miou": 72.76104011326129,
     "oiou": 79.24745253874616,
     "p_at": {
@@ -26,12 +26,12 @@
       "P@0.8": 51.23830489818382,
       "P@0.9": 23.17006053935058
     },
-    "report": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/manifests/full_eval_20260414_corrected/reports/eval_rsrefsegrs_test_miou/report_t05.json",
+    "report": "results/eval_reports/eval_rsrefsegrs_test_miou/report_t05.json",
     "threshold": 0.5,
     "valid_samples": 1817
   },
   "rsrefsegrs_test_oiou": {
-    "checkpoint": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/rsrefsegrs/rsrefsegrs_test_oiou_best.state_dict.pth",
+    "checkpoint": "checkpoints/rsrefsegrs/rsrefsegrs_test_oiou_best.state_dict.pth",
     "miou": 72.74117678625856,
     "oiou": 79.49195019157679,
     "p_at": {
@@ -41,7 +41,7 @@
       "P@0.8": 51.348376444689045,
       "P@0.9": 24.21574023115025
     },
-    "report": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/manifests/full_eval_20260414_corrected/reports/eval_rsrefsegrs_test_oiou/report_t05.json",
+    "report": "results/eval_reports/eval_rsrefsegrs_test_oiou/report_t05.json",
     "threshold": 0.5,
     "valid_samples": 1817
   }

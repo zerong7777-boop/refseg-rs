@@ -48,7 +48,36 @@ See docs/DEPLOY_AND_RUN.md for full commands and smoke-test variants.
 
 ## Results
 
-This release keeps separate checkpoint/report choices for metric-specific evaluation rather than presenting a single universal best checkpoint. JSON reports are available under results/eval_reports, with summary files in results/.
+This release keeps separate checkpoint/report choices for metric-specific evaluation rather than presenting a single universal best checkpoint.
+
+| Dataset | Checkpoint target | Split / samples | Threshold | mIoU | oIoU | Report |
+| --- | --- | ---: | ---: | ---: | ---: | --- |
+| refer_data_20250908 | mIoU-best | val / 4,000 | 0.3 | 74.94 | 81.18 | results/eval_reports/eval_refer_miou/report_t03.json |
+| refer_data_20250908 | oIoU-best | val / 4,000 | 0.3 | 74.38 | 81.32 | results/eval_reports/eval_refer_oiou/report_t03.json |
+| RSRefSegRS | test mIoU-best | test / 1,817 | 0.5 | 72.76 | 79.25 | results/eval_reports/eval_rsrefsegrs_test_miou/report_t05.json |
+| RSRefSegRS | test oIoU-best | test / 1,817 | 0.5 | 72.74 | 79.49 | results/eval_reports/eval_rsrefsegrs_test_oiou/report_t05.json |
+
+Full JSON summaries are available in results/combined_summary.json and results/rsrefsegrs_summary.json.
+
+## Visual Examples
+
+Each example shows four panels from left to right: image, predicted mask heatmap, prediction overlay, and ground-truth mask.
+
+### refer_data_20250908
+
+<p>
+  <img src="assets/examples/refer/refer_demo_1_iou0.837.jpg" width="32%" alt="refer visual example 1">
+  <img src="assets/examples/refer/refer_demo_2_iou0.582.jpg" width="32%" alt="refer visual example 2">
+  <img src="assets/examples/refer/refer_demo_3_iou0.582.jpg" width="32%" alt="refer visual example 3">
+</p>
+
+### RSRefSegRS
+
+<p>
+  <img src="assets/examples/rsrefsegrs/rsrefsegrs_demo_1_iou0.633.jpg" width="32%" alt="RSRefSegRS visual example 1">
+  <img src="assets/examples/rsrefsegrs/rsrefsegrs_demo_2_iou0.548.jpg" width="32%" alt="RSRefSegRS visual example 2">
+  <img src="assets/examples/rsrefsegrs/rsrefsegrs_demo_3_iou0.516.jpg" width="32%" alt="RSRefSegRS visual example 3">
+</p>
 
 ## License
 

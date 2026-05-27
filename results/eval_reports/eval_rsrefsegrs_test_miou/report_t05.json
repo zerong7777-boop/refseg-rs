@@ -1,7 +1,7 @@
 {
   "checkpoint": {
-    "requested": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/rsrefsegrs/rsrefsegrs_test_miou_best.state_dict.pth",
-    "resolved": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/rsrefsegrs/rsrefsegrs_test_miou_best.state_dict.pth"
+    "requested": "checkpoints/rsrefsegrs/rsrefsegrs_test_miou_best.state_dict.pth",
+    "resolved": "checkpoints/rsrefsegrs/rsrefsegrs_test_miou_best.state_dict.pth"
   },
   "dataset": {
     "loaded_records": 1817,

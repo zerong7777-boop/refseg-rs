@@ -1,7 +1,7 @@
 {
   "checkpoint": {
-    "requested": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/refer/refer_oiou_best.state_dict.pth",
-    "resolved": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/refer/refer_oiou_best.state_dict.pth"
+    "requested": "checkpoints/refer/refer_oiou_best.state_dict.pth",
+    "resolved": "checkpoints/refer/refer_oiou_best.state_dict.pth"
   },
   "dataset": {
     "loaded_records": 23267,
