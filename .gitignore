@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Local config and outputs
+examples/paths.env
+outputs/
+runs/
+work_dirs/
+
+# Large model artifacts
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+checkpoints/**/*.ckpt
+checkpoints/**/*.safetensors
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

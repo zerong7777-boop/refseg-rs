@@ -1,0 +1,8 @@
+# Core runtime imports for refseg_runtime.
+# Install PyTorch separately from the official wheel index.
+numpy
+Pillow
+opencv-python-headless
+einops
+transformers
+typing_extensions

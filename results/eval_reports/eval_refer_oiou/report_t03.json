@@ -1,0 +1,26 @@
+{
+  "checkpoint": {
+    "requested": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/refer/refer_oiou_best.state_dict.pth",
+    "resolved": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/refer/refer_oiou_best.state_dict.pth"
+  },
+  "dataset": {
+    "loaded_records": 23267,
+    "valid_samples": 4000,
+    "missing_img": 0,
+    "missing_gt": 0
+  },
+  "results": {
+    "primary": {
+      "pred_threshold": 0.3,
+      "p_at": {
+        "P@0.5": 83.7,
+        "P@0.6": 78.64999999999999,
+        "P@0.7": 71.65,
+        "P@0.8": 57.025000000000006,
+        "P@0.9": 38.574999999999996
+      },
+      "miou": 74.38287185208327,
+      "oiou": 81.32469085932786
+    }
+  }
+}

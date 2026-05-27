@@ -1,0 +1,32 @@
+{
+  "eval_rsrefsegrs_test_miou": {
+    "checkpoint": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/rsrefsegrs/rsrefsegrs_test_miou_best.state_dict.pth",
+    "miou": 72.76104011326129,
+    "oiou": 79.24745253874616,
+    "p_at": {
+      "P@0.5": 82.99394606494221,
+      "P@0.6": 78.09576224545954,
+      "P@0.7": 66.7033571821684,
+      "P@0.8": 51.23830489818382,
+      "P@0.9": 23.17006053935058
+    },
+    "report": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/manifests/full_eval_20260414_corrected/reports/eval_rsrefsegrs_test_miou/report_t05.json",
+    "threshold": 0.5,
+    "valid_samples": 1817
+  },
+  "eval_rsrefsegrs_test_oiou": {
+    "checkpoint": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/checkpoints/rsrefsegrs/rsrefsegrs_test_oiou_best.state_dict.pth",
+    "miou": 72.74117678625856,
+    "oiou": 79.49195019157679,
+    "p_at": {
+      "P@0.5": 83.04898183819482,
+      "P@0.6": 77.49036873968079,
+      "P@0.7": 67.08860759493672,
+      "P@0.8": 51.348376444689045,
+      "P@0.9": 24.21574023115025
+    },
+    "report": "/media/jgzn/SSD_lexar/RZ/danzi/mmdet/delivery/refseg-rs/manifests/full_eval_20260414_corrected/reports/eval_rsrefsegrs_test_oiou/report_t05.json",
+    "threshold": 0.5,
+    "valid_samples": 1817
+  }
+}
